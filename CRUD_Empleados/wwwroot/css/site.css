@@ -1,0 +1,81 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+}
+
+#menu {
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,0) 0%, rgba(0,171,255,1) 45%, rgba(0,16,190,1) 100%);
+}
+#menu a {
+    transition: 500ms all;
+}
+#menu a:hover{
+    color: white;
+    text-shadow: 0px 0px 8px #000000;
+}
+#menu ul {
+    line-height: 35px;
+}
+#menu ul li{
+    margin-left: 5px;
+    margin-right: 5px;
+}
+#slider {
+    margin: auto;
+    margin-top: 90px;
+    width: 80%;
+    height: 240px;
+    background: rgb(0,17,170);
+    background: radial-gradient(circle, rgba(0,17,170,1) 0%, rgba(0,117,255,1) 100%);
+    color: white;
+    text-shadow: 0px 0px 10px #444;
+    border-radius: 15px;
+}
+    #slider h1 {
+        margin-top: 0.2px;
+        padding: 0px;
+        padding-top: 50px;
+        text-align: center;
+    }
+
+.btn-white {
+    color: rgb(128, 126, 126);
+    display: block;
+    background: white;
+    padding: 10px;
+    width: 150px;
+    height: 55px;
+    margin: 0px auto;
+    font-size: 18px;
+    text-transform: uppercase;
+    text-shadow: none;
+    text-decoration: none;
+    line-height: 35px;
+    box-shadow: 0px 0px 5px #444;
+    margin-top: 40px;
+    border-radius: 10px;
+    transition: 300ms all;
+}
+
+    .btn-white:hover {
+        background-color: #444;
+        color: white;
+        width: 160px;
+        height: 58px;
+        font-size: 20px;
+    }
